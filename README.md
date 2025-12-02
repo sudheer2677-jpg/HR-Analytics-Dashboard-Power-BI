@@ -1,17 +1,46 @@
-# HR-Analytics-Dashboard-Power-BI
-Description:
 
-This project showcases an interactive HR Analytics Dashboard built using Power BI, designed to analyze and visualize key HR metrics such as employee demographics, attrition, hiring trends, and performance indicators. The goal is to help organizations gain data-driven insights into workforce patterns, improve retention strategies, and optimize HR operations.
+HR Analytics Dashboard | Power BI + Python Project
 
-Key Highlights:
+This project analyzes an HR dataset to identify employee attrition trends, workforce distribution, and performance insights using Python for data cleaning and Power BI for visualization.
 
-Designed a Power BI dashboard that automated HR reporting, reducing manual analysis time by 40%.
+What I did:
 
-Utilized SQL and Power Query for data cleaning, transformation, and ensuring 100% accuracy of employee records.
+Collected a real HR dataset from Kaggle.
 
-Created KPIs such as Attrition Rate, Hiring Trends, and Employee Performance Index to improve workforce visibility.
+Cleaned and transformed the dataset using Python (Pandas):
 
-Delivered actionable insights through DAX measures, data modeling, and interactive visualizations.
+Removed duplicates
 
-Tools & Technologies Used:
-🧩 Power BI | SQL | Power Query | Excel
+Treated missing values
+
+Fixed incorrect data types
+
+Handled outliers
+
+Exported the cleaned dataset into Power BI for modelling.
+
+Built an interactive HR Analytics Dashboard using Power BI with KPIs such as:
+
+Attrition Rate
+
+Employee Count
+
+Hiring & Attrition Trends
+
+Employee Performance Metrics
+
+Applied DAX measures for calculations such as attrition rate, average age, job satisfaction score, and salary analysis.
+
+Added interactive slicers for filtering by:
+
+Department
+
+Gender
+
+Age category
+
+Education Level
+
+Salary Band
+
+Delivered insights into attrition patterns and supported HR decision-making by improving reporting efficiency and trend visibility.
